@@ -1,0 +1,75 @@
+[gd_scene load_steps=3 format=3 uid="uid://bi8vvrhsgpstp"]
+
+[ext_resource type="Texture2D" uid="uid://fwrr6wv0fw3p" path="res://assets/img/icon_cros.png" id="1_1gdpu"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c4hn0"]
+size = Vector2(1067, 97)
+
+[node name="edge" type="StaticBody2D"]
+
+[node name="IconCros" type="Sprite2D" parent="."]
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros2" type="Sprite2D" parent="."]
+position = Vector2(65, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros3" type="Sprite2D" parent="."]
+position = Vector2(129, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros4" type="Sprite2D" parent="."]
+position = Vector2(194, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros5" type="Sprite2D" parent="."]
+position = Vector2(259, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros6" type="Sprite2D" parent="."]
+position = Vector2(324, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros7" type="Sprite2D" parent="."]
+position = Vector2(388, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros8" type="Sprite2D" parent="."]
+position = Vector2(453, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros9" type="Sprite2D" parent="."]
+position = Vector2(517, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros10" type="Sprite2D" parent="."]
+position = Vector2(582, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros11" type="Sprite2D" parent="."]
+position = Vector2(646, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros12" type="Sprite2D" parent="."]
+position = Vector2(711, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros13" type="Sprite2D" parent="."]
+position = Vector2(776, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros14" type="Sprite2D" parent="."]
+position = Vector2(841, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros15" type="Sprite2D" parent="."]
+position = Vector2(905, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="IconCros16" type="Sprite2D" parent="."]
+position = Vector2(970, 0)
+texture = ExtResource("1_1gdpu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(485.5, -0.5)
+shape = SubResource("RectangleShape2D_c4hn0")
