@@ -24,9 +24,19 @@ window/size/viewport_height=720
 
 project/assembly_name="snake"
 
+[layer_names]
+
+2d_render/layer_1="Edge"
+2d_render/layer_2="Ship"
+2d_render/layer_3="Asteroid"
+2d_physics/layer_1="Edge"
+2d_physics/layer_2="Ship"
+2d_physics/layer_3="Asteroid"
+
 [physics]
 
-2d/default_gravity_vector=Vector2(0, 0)
+2d/default_gravity=10.0
+2d/default_gravity_vector=Vector2(0.5, 1)
 
 [rendering]
 
